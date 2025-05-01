@@ -1,5 +1,5 @@
-import Угадайчисло
-import Блэкджек
+import find_num
+import blackjack
 def main():
     print("Игры")
     print('1.Угадай число')
@@ -8,9 +8,9 @@ def main():
 
     Выбор = input("Выбери игру: ")
     if Выбор == "1":
-        Угадайчисло
+        find_num.играть()
     elif Выбор == "2":
-        Блэкджек
+        blackjack.играть()
     elif Выбор == "0":
         print("Выход")
     else:
